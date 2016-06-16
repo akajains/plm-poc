@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{977FF3E0-B930-49D5-90BA-055136E7B63A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F0E3C353-A30B-4D18-AF02-27B7B486728D}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PLM.CmsService.Data", "src\PLM.CmsService.Data\PLM.CmsService.Data.xproj", "{18E9AE79-78A5-42A1-88A2-F1A6FBBBCB6F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PLM.CmsService.API", "src\PLM.CmsService.API\PLM.CmsService.API.xproj", "{ACF77898-BCF1-4070-910B-83D43DDC5DBA}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PLM.Authorization", "..\PLM.Authorization\src\PLM.Authorization\PLM.Authorization.xproj", "{1C0461E3-D13A-4FDD-A2CD-801056899FA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18E9AE79-78A5-42A1-88A2-F1A6FBBBCB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E9AE79-78A5-42A1-88A2-F1A6FBBBCB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E9AE79-78A5-42A1-88A2-F1A6FBBBCB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E9AE79-78A5-42A1-88A2-F1A6FBBBCB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF77898-BCF1-4070-910B-83D43DDC5DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF77898-BCF1-4070-910B-83D43DDC5DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF77898-BCF1-4070-910B-83D43DDC5DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF77898-BCF1-4070-910B-83D43DDC5DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C0461E3-D13A-4FDD-A2CD-801056899FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0461E3-D13A-4FDD-A2CD-801056899FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0461E3-D13A-4FDD-A2CD-801056899FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0461E3-D13A-4FDD-A2CD-801056899FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18E9AE79-78A5-42A1-88A2-F1A6FBBBCB6F} = {977FF3E0-B930-49D5-90BA-055136E7B63A}
+		{ACF77898-BCF1-4070-910B-83D43DDC5DBA} = {977FF3E0-B930-49D5-90BA-055136E7B63A}
+	EndGlobalSection
+EndGlobal

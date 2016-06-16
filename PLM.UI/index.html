@@ -1,0 +1,36 @@
+<html ng-app="PLM.UI">
+    <head> 
+        <base href="/">
+     </head>
+    <body>
+        <h3>Home</h3>
+        
+        <div ng-controller="MainController">Controller Injection Test {{test}}</div>
+        
+        <a ui-sref="status">status</a>
+        
+        <div ui-view></div>
+        
+       
+        
+        
+        
+        <!--javascript frameworks & libraries-->
+        <script language="javascript" src="..\node_modules\angular\angular.js" ></script>
+        <script language="javascript" src="..\node_modules\angular-route\angular-route.js" ></script>
+        <script language="javascript" src="..\node_modules\angular-local-storage\src\angular-local-storage.js" ></script>
+        <script language="javascript" src="..\node_modules\angular-ui-router\release\angular-ui-router.js" ></script>
+        
+        <!--application-->
+        <script language="javascript" src="app.js" ></script>
+        <script language="javascript" src="controllers.js" ></script>        
+        <script language="javascript" src="services.js" ></script>
+        <script language="javascript" src="main-controller.js" ></script>
+        <script language="javascript" src="account\authorize-controller.js" ></script>
+        <script language="javascript" src="resource\user-controller.js" ></script>
+        <script language="javascript" src="common\auth-service.js" ></script>
+        <script language="javascript" src="common\config-service.js" ></script>
+    
+    </body>
+</html>
+        
